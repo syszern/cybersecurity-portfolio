@@ -30,7 +30,7 @@ This project involves conducting a risk assessment for a fictional commercial ba
 ## Security Incident Reports
 This section details a series of projects focused on identifying, analyzing, and mitigating cybersecurity incidents. The primary objective of these projects is to enhance the security posture of the affected systems through thorough investigation, root cause analysis, and the implementation of preventive measures.
 
-## 1. **Security Incident Analysis for YummyRecipesForMe.com**
+## 1. **Analyzing Network Attacks for Travel Agency**
 This project focuses on responding to a potential **SYN flood attack** targeting the web server of a travel agency. Upon receiving an alert about server issues, the security analyst investigated the incident by analyzing the traffic and identifying a high volume of TCP SYN requests from an unfamiliar IP address. The attack overwhelmed the server, prompting immediate actions to temporarily take the server offline and block the offending IP address through firewall configuration. The incident was documented, and management was alerted to the attack’s nature and impact. Recommendations were made to prevent similar future incidents, enhancing the overall security posture of the travel agency’s website.
 
 ## 2. **DNS & HTTP Traffic Analysis for Cybersecurity Incident**
