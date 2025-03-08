@@ -1,23 +1,29 @@
 ## Security Incident Reports
 This section highlights a collection of projects dedicated to identifying, analyzing, and addressing cybersecurity incidents. The primary objective of these projects is to enhance the security posture of the affected systems through thorough investigation, root cause analysis, and the implementation of preventive measures.
 
-## Security Incident Analysis for a Cooking Website
-**Background:** Visitors to the cooking website *yummyrecipesforme.com* experienced a security issue when loading the main webpage. The cybersecurity analyst's role is to investigate, identify, document, and recommend a solution to the security problem.
+## Analyzing Network Attacks for Travel Agency
+**Background:** A security analyst at a travel agency received an automated alert indicating an issue with the web server, which employees use to access vacation package information. The alert suggested a potential disruption in service, requiring immediate investigation.
 
-**Objective:** Investigate the security event, identify the affected network protocols, and recommend a preventive security measure.
+**Objective:**
+The goal is to investigate the security event, identify the nature of the attack, document the incident thoroughly, and recommend preventive measures to avoid similar future occurrences.
 
-**Tasks:**
-1. **Investigate the Security Event:** Review a tcpdump log to analyze the network traffic and identify the network protocols used to establish the connection between the user and the website.
+**Key Tasks:**
+1. **Investigate the Security Event:**
+Upon attempting to access the website, the analyst encountered a connection timeout. A packet sniffer was used to capture data packets, revealing an unusually high volume of TCP SYN requests from an unfamiliar IP address.
 
-2. **Identify Network Protocols:** Understand the communication rules and standards used by networked devices to transmit data. Recognize how malicious actors can exploit these protocols to invade and attack private networks.
+2. **Identify the Attack:**
+The web server was overwhelmed by a flood of incoming traffic, indicating a potential SYN flood attack, commonly associated with a Denial of Service (DoS) attack aimed at exhausting the server's resources.
 
-3. **Document the Incident:** Record the details of what occurred during the security incident.
+3. **Immediate Response:**
+The web server was temporarily taken offline to recover, and the company’s firewall was configured to block the offending IP address, mitigating the immediate threat and restoring service.
 
-4. **Recommend a Security Measure:** Propose one security measure to implement to prevent similar security problems in the future.
+4. **Alert Management:**
+The manager was promptly notified about the issue, and next steps were discussed to prevent recurrence. The attack type and its impact on the server were documented for senior management to understand and address the risks.
 
-**Outcome:** Enhance the security of *yummyrecipesforme.com* by identifying and addressing the security issue, documenting the incident, and implementing preventive measures to protect against future attacks.
+**Outcome:**
+The incident was resolved by identifying the attack, taking immediate corrective action, and implementing a more robust defense strategy to prevent future attacks. The travel agency’s website security was reinforced, enhancing its ability to handle such threats in the future.
 
-## DNS & HTTP Traffic Analysis for Cybersecurity Incident
+## Network Traffic Analysis for Cybersecurity Incident
 
 **Objective:**
   - Analyze the DNS & HTTP traffic log to identify a network protocol.
@@ -33,7 +39,7 @@ This section highlights a collection of projects dedicated to identifying, analy
 
 **Outcome:** Enhance the organization's security posture by identifying the network protocol involved in the incident, documenting the event, and recommending preventive measures to mitigate future brute force attacks.
 
-## Investigating a Security Issue for a Website
+## Applying OS Hardening Techniques
 **Background:** A cybersecurity analyst working for a company that hosts the cooking website *yummyrecipesforme.com* is tasked with investigating a security issue experienced by visitors when loading the main webpage. Malicious actors may exploit network protocols to invade private networks, highlighting the importance of identifying and protecting against such threats.
 
 **Objective:** Investigate the security event, identify the network protocols involved, document the incident, and recommend a security measure to prevent similar issues in the future.
