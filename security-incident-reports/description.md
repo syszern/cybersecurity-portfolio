@@ -1,6 +1,6 @@
 ## Security Incident Reports
-### Security Incident Analysis for YummyRecipesForMe.com
-**Background:** Visitors to the cooking website yummyrecipesforme.com experienced a security issue when loading the main webpage. The cybersecurity analyst's role is to investigate, identify, document, and recommend a solution to the security problem.
+### Security Incident Analysis for a Cooking Website
+**Background:** Visitors to the cooking website *yummyrecipesforme.com* experienced a security issue when loading the main webpage. The cybersecurity analyst's role is to investigate, identify, document, and recommend a solution to the security problem.
 
 **Objective:** Investigate the security event, identify the affected network protocols, and recommend a preventive security measure.
 
@@ -13,7 +13,7 @@
 
 4. **Recommend a Security Measure:** Propose one security measure to implement to prevent similar security problems in the future.
 
-**Outcome:** Enhance the security of yummyrecipesforme.comby identifying and addressing the security issue, documenting the incident, and implementing preventive measures to protect against future attacks.
+**Outcome:** Enhance the security of *yummyrecipesforme.com* by identifying and addressing the security issue, documenting the incident, and implementing preventive measures to protect against future attacks.
 
 ### DNS & HTTP Traffic Analysis for Cybersecurity Incident
 
@@ -30,3 +30,20 @@
 3. **Recommend a Security Measure:** Propose one security measure to implement to prevent future brute force attacks, thereby improving the organization’s security posture.
 
 **Outcome:** Enhance the organization's security posture by identifying the network protocol involved in the incident, documenting the event, and recommending preventive measures to mitigate future brute force attacks.
+
+### Investigating a Security Issue for a Website
+**Background:** A cybersecurity analyst working for a company that hosts the cooking website *yummyrecipesforme.com* is tasked with investigating a security issue experienced by visitors when loading the main webpage. Malicious actors may exploit network protocols to invade private networks, highlighting the importance of identifying and protecting against such threats.
+
+**Objective:** Investigate the security event, identify the network protocols involved, document the incident, and recommend a security measure to prevent similar issues in the future.
+
+**Tasks:**
+
+1. **Investigate the Security Event:**
+    - Use a tcpdump log to analyze the network traffic.
+    - Identify the network protocols used to establish the connection between the user and the website.
+
+2. **Document the Incident:** Record the details of the cybersecurity incident, including the network protocols involved and how they were exploited.
+
+3. **Recommend a Security Measure:** Propose one actionable security measure to implement, ensuring protection against similar security problems in the future.
+
+**Outcome:** Enhance the security of *yummyrecipesforme.com* by identifying and addressing the network protocol vulnerabilities, documenting the incident, and implementing a preventive solution to protect against future threats.
