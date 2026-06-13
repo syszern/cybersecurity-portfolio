@@ -32,7 +32,7 @@ To review specific project documentation, objectives, and technical outcomes, na
 <summary><b>Host-Based Intrusion Detection & SIEM Analysis (SSH Brute Force)</b></summary>
 <br>
 
-*📁 Core Lab:* **[Linux Authentication Brute Force Analysis](./path-to-your-file)** | *Tech Stack:* `Splunk (SIEM)` `Linux CLI` `/var/log/auth.log` `MITRE ATT&CK`
+*📁 Core Lab:* **[Linux Authentication Brute Force Analysis](./ssh-brute-force-analysis)** | *Tech Stack:* `Splunk (SIEM)` `Linux CLI` `/var/log/auth.log` `MITRE ATT&CK`
 > **Objective:** Analyzed a simulated SSH brute-force attack against a Linux target host (`192.168.56.111`) using a password list.
 > 
 > **Outcome:** Identified multiple failed authentication attempts followed by a successful login using valid credentials. Validated the malicious activity through host logs and Splunk SIEM correlation, and documented the findings using MITRE ATT&CK mapping.
